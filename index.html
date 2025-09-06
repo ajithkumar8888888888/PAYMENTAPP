@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Payment App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="loginPage">
+      <h2>Login</h2>
+      <input type="email" id="email" placeholder="Enter Email" required>
+      <input type="password" id="password" placeholder="Enter Password" required>
+      <button id="loginBtn">Login</button>
+      <p id="loginError" class="error"></p>
+    </div>
+
+    <div id="dashboard" class="hidden">
+      <h2>Welcome, <span id="userName"></span></h2>
+      <p>Your Balance: <span class="balance" id="userBalance"></span> ₹</p>
+
+      <h3>Send Money</h3>
+      <input type="email" id="receiverEmail" placeholder="Receiver Email">
+      <input type="number" id="amount" placeholder="Amount to Send">
+      <button id="sendBtn">Send</button>
+
+      <p id="transferMessage"></p>
+      <button id="logoutBtn" class="logout-btn">Logout</button>
+    </div>
+  </div>
+
+  <script src="java.js"></script>
+</body>
+</html>
+
