@@ -1,8 +1,8 @@
 
 let users = JSON.parse(localStorage.getItem("users")) || [
-  { name: "Batman", email: "batman@gmail.com", password: "1234", balance: 5000 },
-  { name: "Ironman", email: "ironman@gmail.com", password: "1234", balance: 3000 },
-  { name: "Superman", email: "superman@gmail.com", password: "1234", balance: 4000 }
+  { name: "vinoth", email: "vinothkumar@gmail.com", password: "1234", balance: 5000 },
+  { name: "kathir", email: "kathir@gmail.com", password: "1234", balance: 3000 },
+  { name: "mathi", email: "mathi@gmail.com", password: "1234", balance: 4000 }
 ];
 
 function saveUsers() {
